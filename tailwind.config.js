@@ -19,7 +19,8 @@ export default {
         'cyan':'rgb(46,204,156)',
         'violet':'rgb(96,79,191)',
         'gray':'rgb(202, 202, 202)',
-        'darkerBlue':'rgb(18,34,88)'
+        'darkerBlue':'rgb(18,34,88)',
+        'grayish':'#F3F6FF'
       },
       'screens':{
         'xl':'1275px',

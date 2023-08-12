@@ -101,7 +101,7 @@ const Home = () => {
             <div className='mt-10 flex flex-col lg:flex-row items-center gap-20 mb-10'>
 
                 <div data-aos="zoom-in"
-                    className='project-1 flex items-center justify-between gap-10 lg:flex-row flex-col-reverse rounded-xl border-b-4 border-white hover:border-orange p-3 relative'>
+                    className='project-1 flex items-center justify-between gap-10 lg:flex-row flex-col-reverse rounded-xl border-b-4 border-grayish hover:border-orange p-3 relative'>
                     <Link className='absolute top-0 right-0 text-gray text-xl hover:text-black transition-all ease-in-out duration-300'>
                         <FaExternalLinkAlt/>
                     </Link>
@@ -110,7 +110,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div data-aos="zoom-in" className='project-1 flex items-center justify-between gap-10 lg:flex-row flex-col rounded-xl border-b-4 border-white hover:border-orange p-3 relative'>
+                <div data-aos="zoom-in" className='project-1 flex items-center justify-between gap-10 lg:flex-row flex-col rounded-xl border-b-4 border-grayish hover:border-orange p-3 relative'>
                     <Link className='absolute top-0 right-0 text-gray text-xl hover:text-black transition-all ease-in-out duration-300'>
                         <FaExternalLinkAlt/>
                     </Link>
@@ -173,7 +173,7 @@ const Home = () => {
                     <p className='bg-[rgba(255,145,77,0.4)] text-orange uppercase font-semibold px-3 py-1 rounded-full mb-3'>Tech Stack</p>
                     <h1 className='text-4xl font-semibold uppercase text-darkerBlue md:w-1/2 w-full'>Digital Mastery: The Heartbeat of Our Tech Infrastructure</h1>
                 </div>
-                <div className='flex items-center flex-col md:flex-row justify-evenly flex-wrap mt-10 gap-10'>
+                <div className='flex items-center flex-col md:flex-row justify-evenly flex-wrap mt-10 gap-10 overflow-hidden'>
                     <div data-aos="fade-left" className='flex flex-col gap-5 md:w-auto w-full'>
                         <div className='flex items-center gap-3 text-darkerBlue font-semibold text-xl'>
                             <span>
