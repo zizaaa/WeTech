@@ -104,7 +104,7 @@ const AboutUs = () => {
         </div>
 
         {/* accordion */}
-        <div className="bg-white">
+        <div className="bg-white ms:py-0 py-10">
             <div className="container mx-auto md:px-0 px-10 flex md:flex-row flex-col items-center sm:h-[80vh] h-auto">
                 <div className="flex-1 flex items-center justify-center">
                   <img src="/About/accordion-img.svg" className="w-2/3"/>
