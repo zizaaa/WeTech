@@ -34,7 +34,7 @@ const Nav = () => {
         </div>
 
         {/* dropdown menu */}
-        <div className={`container mx-auto lg:hidden flex-col items-center gap-5 text-xl ${showNav ? 'flex':'hidden'}`}>
+        <div className={`container mx-auto lg:hidden flex flex-col items-center gap-5 text-xl transition-max-height duration-500 ease-in-out ${showNav ? 'max-h-[16rem]':'max-h-0'} overflow-hidden`}>
             <Link to='/' onClick={()=>{setShowNav(false)}}>Home</Link>
             <Link to='/Service' onClick={()=>{setShowNav(false)}}>Service</Link>
             <Link to='/Projects' onClick={()=>{setShowNav(false)}}>Projects</Link>
