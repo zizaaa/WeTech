@@ -35,11 +35,11 @@ const Nav = () => {
 
         {/* dropdown menu */}
         <div className={`container mx-auto lg:hidden flex-col items-center gap-5 text-xl ${showNav ? 'flex':'hidden'}`}>
-            <Link to='/'>Home</Link>
-            <Link to='/Service'>Service</Link>
-            <Link to='/Service'>Projects</Link>
-            <Link to='/About'>About Us</Link>
-            <Link to='/Form' className="py-2 px-7 border-2 border-orange rounded-full uppercase  hover:bg-orange hover:text-white hover:drop-shadow-lg transition ease-in-out duration-500">Consult</Link>
+            <Link to='/' onClick={()=>{setShowNav(false)}}>Home</Link>
+            <Link to='/Service' onClick={()=>{setShowNav(false)}}>Service</Link>
+            <Link to='/Projects' onClick={()=>{setShowNav(false)}}>Projects</Link>
+            <Link to='/About' onClick={()=>{setShowNav(false)}}>About Us</Link>
+            <Link to='/Form' onClick={()=>{setShowNav(false)}} className="py-2 px-7 border-2 border-orange rounded-full uppercase  hover:bg-orange hover:text-white hover:drop-shadow-lg transition ease-in-out duration-500">Consult</Link>
         </div>
     </nav>
   )

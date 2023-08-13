@@ -5,7 +5,6 @@ import { HiOutlineArrowLeftCircle, HiOutlineArrowRightCircle } from 'react-icons
 
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Aos from 'aos'
 
@@ -106,7 +105,7 @@ const Home = () => {
                         <FaExternalLinkAlt/>
                     </Link>
                     <div className='flex-1'>
-                        <img src='/projects/SpecialDog.png'/>
+                        <img src='/projects/SpecialDog.png' loading="lazy"/>
                     </div>
                 </div>
 
@@ -115,7 +114,7 @@ const Home = () => {
                         <FaExternalLinkAlt/>
                     </Link>
                     <div className='flex-1'>
-                        <img src='/projects/harmonyOrganic.png'/>
+                        <img src='/projects/harmonyOrganic.png' loading="lazy"/>
                     </div>
                 </div> 
             </div>
@@ -250,7 +249,7 @@ const Home = () => {
                 <div className='mt-10'>
                     <div className='bg-darkerBlue sm:py-0 py-5  w-full flex md:flex-row flex-col items-center rounded-lg drop-shadow-lg'>
                         <div data-aos="zoom-in" className='flex rounded-lg'>
-                            <img src={testimonials ? testimonials[currPage].img:''} className='rounded-lg h-[23rem] w-[20rem] drop-shadow-lg'/>
+                            <img src={testimonials ? testimonials[currPage].img:''} className='rounded-lg h-[23rem] w-[20rem] drop-shadow-lg' loading="lazy"/>
                         </div>
                         <div className='sm:w-2/3 w-full p-5 flex flex-col items-start justify-center'>
                             <div data-aos="fade-right" className='text-orange mb-5'>
