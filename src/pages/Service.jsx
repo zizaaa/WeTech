@@ -102,7 +102,7 @@ const Service = () => {
       
       {/* service section */}
       <div className='bg-darkerBlue mb-5 relative overflow-hidden'>
-        <svg className='absolute -bottom-1 z-0' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fillOpacity="1" d="M0,160L34.3,170.7C68.6,181,137,203,206,176C274.3,149,343,75,411,48C480,21,549,43,617,74.7C685.7,107,754,149,823,160C891.4,171,960,149,1029,133.3C1097.1,117,1166,107,1234,117.3C1302.9,128,1371,160,1406,176L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+        <svg className='absolute -bottom-1 z-0 h-[20rem]' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fillOpacity="1" d="M0,160L34.3,170.7C68.6,181,137,203,206,176C274.3,149,343,75,411,48C480,21,549,43,617,74.7C685.7,107,754,149,823,160C891.4,171,960,149,1029,133.3C1097.1,117,1166,107,1234,117.3C1302.9,128,1371,160,1406,176L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
         <div className="container mx-auto md:px-0 px-10 py-10 overflow-hidden">
             <div data-aos="fade-down" className='text-center text-white flex flex-col items-center mb-5'>
               <p className="bg-[rgba(255,145,77,0.4)] text-orange uppercase font-semibold px-3 py-1 rounded-full mb-3">Services</p>
@@ -205,8 +205,8 @@ const Service = () => {
                       </p>
                     </div>
 
-                    <div className={`px-3 pb-3 rounded-lg border-[1px] border-slate-200 overflow-hidden transition-max-height duration-500 ease-in-out ${accordionTwo ? 'sm:max-h-[10rem] max-h-[12rem]':'xm:max-h-[3.5rem] max-h-[4rem]'}`} id="accordion-1">
-                      <button onClick={accTwo} className="flex items-center justify-between text-start w-full xm:py-3 py-5 text-md text-darkerBlue font-semibold">
+                    <div className={`px-3 pb-3 rounded-lg border-[1px] border-slate-200 overflow-hidden transition-max-height duration-500 ease-in-out ${accordionTwo ? 'sm:max-h-[10rem] max-h-[12rem]':'xm:max-h-[3.5rem] max-h-[5rem]'}`} id="accordion-1">
+                      <button onClick={accTwo} className="flex items-center justify-between text-start w-full xm:py-3 py-4 text-md text-darkerBlue font-semibold">
                         Do you offer both static and dynamic websites?
                         <span className={`${accordionTwo ? '-rotate-180':''} transition-transform duration-500 ease-in-out`}>
                           <BiChevronDown />
@@ -217,7 +217,7 @@ const Service = () => {
                       </p>
                     </div>
 
-                    <div className={`px-3 pb-3 rounded-lg border-[1px] border-slate-200 overflow-hidden transition-max-height duration-500 ease-in-out ${accordionThree ? 'sm:max-h-[10rem] max-h-[12rem]':'xm:max-h-[3.5rem] max-h-[4rem]'}`} id="accordion-1">
+                    <div className={`px-3 pb-3 rounded-lg border-[1px] border-slate-200 overflow-hidden transition-max-height duration-500 ease-in-out ${accordionThree ? 'sm:max-h-[10rem] max-h-[12rem]':'xm:max-h-[3.5rem] max-h-[5rem]'}`} id="accordion-1">
                       <button onClick={accThree} className="flex items-center justify-between text-start w-full xm:py-3 py-5 text-md text-darkerBlue font-semibold">
                         How do you ensure website security and speed?
                         <span className={`${accordionThree ? '-rotate-180':''} transition-transform duration-500 ease-in-out`}>
