@@ -27,7 +27,12 @@ export default {
         'xl':'1275px',
         'lg':'817px',
         'md':'646px',
-        'sm':'546px'
+        'sm':'546px',
+        'xm':'463px'
+      },
+      'backgroundImage':{
+        'dynamic':"url('/service/dynamic_service.png')",
+        'static':"url('/service/static_service.png')"
       }
     },
   },
